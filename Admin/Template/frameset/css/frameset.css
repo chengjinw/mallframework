@@ -1,0 +1,49 @@
+﻿/*
+框架页
+*/
+
+body {
+	background: #222d32;	
+}
+#headerBox {
+	width: 100%;
+	height: 50px;
+}
+
+#sidebarBox {
+	float: left;
+	width: 230px;
+	min-height: 100%;
+	text-align: left;
+}
+#contentBox {
+	float: right;
+}
+
+#headerFrame ,#sidebarFrame ,#contentFrame{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	border: 0px none;
+	margin: 0px;
+	padding: 0px;
+}
+#headerFrame {
+	height: 50px;
+}
+#sidebarFrame {
+	float: left;
+	width: 230px;
+}
+#contentFrame {
+	float: right;
+}
+
+.displayNone {
+	display: none;	
+}
+
+/*
+sidebar样式重写
+*/
+

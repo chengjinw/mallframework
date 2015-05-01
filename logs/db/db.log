@@ -1,0 +1,1653 @@
+Begin:2015-04-05 13:44:10
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(46) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(46): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(23): Core\Main->run()
+#7 {main}
+End:2015-04-05 13:44:10  Total:0.243ms
+Begin:2015-04-05 13:44:10
+SQL: SELECT  *  FROM `wm_users`  WHERE  (`id` = '2')    
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1047): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(22): Core\Lib\DbConnection->queryRow()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Module/Users.php(14): Model\Users->getUserById(2)
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(16): Module\Users->getUserById(2)
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(46) : eval()'d code(1): Mall\Home->index()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(46): eval()
+#7 /Users/wangchengjin/workspace/huawei/yxzw/index.php(23): Core\Main->run()
+#8 {main}
+End:2015-04-05 13:44:10  Total:0.273ms
+Begin:2015-04-05 13:44:56
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(46) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(46): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(23): Core\Main->run()
+#7 {main}
+End:2015-04-05 13:44:56  Total:0.469ms
+Begin:2015-04-05 13:44:56
+SQL: SELECT  *  FROM `wm_users`  WHERE  (`id` = '2')    
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1047): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(22): Core\Lib\DbConnection->queryRow()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Module/Users.php(14): Model\Users->getUserById(2)
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(16): Module\Users->getUserById(2)
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(46) : eval()'d code(1): Mall\Home->index()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(46): eval()
+#7 /Users/wangchengjin/workspace/huawei/yxzw/index.php(23): Core\Main->run()
+#8 {main}
+End:2015-04-05 13:44:56  Total:0.274ms
+Begin:2015-04-05 13:45:29
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(46) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(46): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(23): Core\Main->run()
+#7 {main}
+End:2015-04-05 13:45:29  Total:0.241ms
+Begin:2015-04-05 13:45:29
+SQL: SELECT  *  FROM `wm_users`  WHERE  (`id` = '2')    
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1047): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(22): Core\Lib\DbConnection->queryRow()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Module/Users.php(14): Model\Users->getUserById(2)
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(16): Module\Users->getUserById(2)
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(46) : eval()'d code(1): Mall\Home->index()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(46): eval()
+#7 /Users/wangchengjin/workspace/huawei/yxzw/index.php(23): Core\Main->run()
+#8 {main}
+End:2015-04-05 13:45:29  Total:0.246ms
+Begin:2015-04-05 13:47:05
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 13:47:05  Total:0.355ms
+Begin:2015-04-05 13:47:05
+SQL: SELECT  *  FROM `wm_users`  WHERE  (`id` = '2')    
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1047): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(22): Core\Lib\DbConnection->queryRow()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Module/Users.php(14): Model\Users->getUserById(2)
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(16): Module\Users->getUserById(2)
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#7 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#8 {main}
+End:2015-04-05 13:47:05  Total:0.302ms
+Begin:2015-04-05 13:47:27
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 13:47:27  Total:0.266ms
+Begin:2015-04-05 13:47:27
+SQL: SELECT  *  FROM `wm_users`  WHERE  (`id` = '2')    
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1047): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(22): Core\Lib\DbConnection->queryRow()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Module/Users.php(14): Model\Users->getUserById(2)
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(16): Module\Users->getUserById(2)
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50) : eval()'d code(1): Mall\Home->index()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50): eval()
+#7 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#8 {main}
+End:2015-04-05 13:47:27  Total:0.273ms
+Begin:2015-04-05 13:48:00
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 13:48:00  Total:0.281ms
+Begin:2015-04-05 13:48:00
+SQL: SELECT  *  FROM `wm_users`  WHERE  (`id` = '2')    
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1047): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(22): Core\Lib\DbConnection->queryRow()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Module/Users.php(14): Model\Users->getUserById(2)
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(16): Module\Users->getUserById(2)
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50) : eval()'d code(1): Mall\Home->index()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50): eval()
+#7 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#8 {main}
+End:2015-04-05 13:48:00  Total:0.225ms
+Begin:2015-04-05 14:04:10
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 14:04:10  Total:0.391ms
+Begin:2015-04-05 14:04:10
+SQL: SELECT  *  FROM `wm_users`  WHERE  (`id` = '2')    
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1047): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(22): Core\Lib\DbConnection->queryRow()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Module/Users.php(14): Model\Users->getUserById(2)
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(16): Module\Users->getUserById(2)
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50) : eval()'d code(1): Mall\Home->index()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50): eval()
+#7 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#8 {main}
+End:2015-04-05 14:04:10  Total:0.314ms
+Begin:2015-04-05 14:06:17
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 14:06:17  Total:0.350ms
+Begin:2015-04-05 14:06:17
+SQL: SELECT  *  FROM `wm_users`  WHERE  (`id` = '2')    
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1047): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(22): Core\Lib\DbConnection->queryRow()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Module/Users.php(14): Model\Users->getUserById(2)
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(16): Module\Users->getUserById(2)
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50) : eval()'d code(1): Mall\Home->index()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(50): eval()
+#7 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#8 {main}
+End:2015-04-05 14:06:17  Total:0.247ms
+Begin:2015-04-05 16:24:32
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:24:32  Total:0.273ms
+Begin:2015-04-05 16:24:32
+SQL: SELECT  *  FROM `wm_users`  WHERE  (`id` = '2')    
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1047): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(22): Core\Lib\DbConnection->queryRow()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Module/Users.php(14): Model\Users->getUserById(2)
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(16): Module\Users->getUserById(2)
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#7 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#8 {main}
+End:2015-04-05 16:24:32  Total:0.262ms
+Begin:2015-04-05 16:36:29
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:36:29  Total:0.504ms
+Begin:2015-04-05 16:38:09
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:38:09  Total:0.316ms
+Begin:2015-04-05 16:38:42
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:38:42  Total:0.344ms
+Begin:2015-04-05 16:38:47
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:38:47  Total:0.263ms
+Begin:2015-04-05 16:40:33
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:40:33  Total:0.221ms
+Begin:2015-04-05 16:41:39
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:41:39  Total:0.347ms
+Begin:2015-04-05 16:45:39
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:45:39  Total:0.374ms
+Begin:2015-04-05 16:45:40
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:45:40  Total:0.266ms
+Begin:2015-04-05 16:45:41
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:45:41  Total:0.267ms
+Begin:2015-04-05 16:49:21
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:49:21  Total:0.309ms
+Begin:2015-04-05 16:49:22
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:49:22  Total:0.250ms
+Begin:2015-04-05 16:52:02
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:52:02  Total:0.255ms
+Begin:2015-04-05 16:52:02
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:52:02  Total:0.303ms
+Begin:2015-04-05 16:52:33
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 16:52:33  Total:0.258ms
+Begin:2015-04-05 17:18:24
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:18:24  Total:0.376ms
+Begin:2015-04-05 17:20:06
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:20:06  Total:0.300ms
+Begin:2015-04-05 17:35:30
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:35:30  Total:0.558ms
+Begin:2015-04-05 17:39:01
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:39:01  Total:0.297ms
+Begin:2015-04-05 17:39:02
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:39:02  Total:0.269ms
+Begin:2015-04-05 17:42:34
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:42:34  Total:0.328ms
+Begin:2015-04-05 17:43:49
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:43:49  Total:0.244ms
+Begin:2015-04-05 17:54:01
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:54:01  Total:0.379ms
+Begin:2015-04-05 17:54:03
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:54:03  Total:0.257ms
+Begin:2015-04-05 17:54:38
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:54:38  Total:0.247ms
+Begin:2015-04-05 17:56:06
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:56:06  Total:0.276ms
+Begin:2015-04-05 17:56:07
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:56:07  Total:0.256ms
+Begin:2015-04-05 17:56:14
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:56:14  Total:0.247ms
+Begin:2015-04-05 17:56:15
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:56:15  Total:0.280ms
+Begin:2015-04-05 17:56:28
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:56:28  Total:0.316ms
+Begin:2015-04-05 17:57:09
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:57:09  Total:0.247ms
+Begin:2015-04-05 17:57:21
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:57:21  Total:0.243ms
+Begin:2015-04-05 17:57:22
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:57:22  Total:0.272ms
+Begin:2015-04-05 17:58:10
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:58:10  Total:0.328ms
+Begin:2015-04-05 17:58:11
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:58:11  Total:0.261ms
+Begin:2015-04-05 17:58:11
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:58:11  Total:0.683ms
+Begin:2015-04-05 17:58:11
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:58:11  Total:0.540ms
+Begin:2015-04-05 17:58:11
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:58:11  Total:0.255ms
+Begin:2015-04-05 17:58:12
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:58:12  Total:0.258ms
+Begin:2015-04-05 17:58:12
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:58:12  Total:0.283ms
+Begin:2015-04-05 17:58:12
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:58:12  Total:0.266ms
+Begin:2015-04-05 17:58:12
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:58:12  Total:0.246ms
+Begin:2015-04-05 17:58:12
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:58:12  Total:0.246ms
+Begin:2015-04-05 17:58:13
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:58:13  Total:0.278ms
+Begin:2015-04-05 17:58:13
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:58:13  Total:0.257ms
+Begin:2015-04-05 17:58:13
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 17:58:13  Total:0.295ms
+Begin:2015-04-05 18:08:03
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:08:03  Total:0.448ms
+Begin:2015-04-05 18:08:17
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:08:17  Total:0.329ms
+Begin:2015-04-05 18:09:27
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:09:27  Total:0.226ms
+Begin:2015-04-05 18:09:52
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:09:52  Total:0.512ms
+Begin:2015-04-05 18:17:18
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:17:18  Total:0.252ms
+Begin:2015-04-05 18:17:53
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:17:53  Total:0.286ms
+Begin:2015-04-05 18:19:16
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:19:16  Total:0.244ms
+Begin:2015-04-05 18:20:55
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:20:55  Total:0.389ms
+Begin:2015-04-05 18:21:12
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:21:12  Total:0.292ms
+Begin:2015-04-05 18:21:28
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:21:28  Total:0.247ms
+Begin:2015-04-05 18:21:44
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:21:44  Total:0.247ms
+Begin:2015-04-05 18:21:57
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:21:57  Total:0.300ms
+Begin:2015-04-05 18:21:58
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:21:58  Total:0.230ms
+Begin:2015-04-05 18:21:59
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:21:59  Total:0.247ms
+Begin:2015-04-05 18:23:35
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:23:35  Total:0.271ms
+Begin:2015-04-05 18:23:43
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:23:43  Total:0.263ms
+Begin:2015-04-05 18:23:55
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:23:55  Total:0.426ms
+Begin:2015-04-05 18:28:27
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:28:27  Total:0.343ms
+Begin:2015-04-05 18:29:43
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:29:43  Total:0.273ms
+Begin:2015-04-05 18:29:43
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:29:43  Total:0.284ms
+Begin:2015-04-05 18:29:44
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:29:44  Total:0.246ms
+Begin:2015-04-05 18:29:44
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:29:44  Total:0.250ms
+Begin:2015-04-05 18:29:45
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:29:45  Total:0.245ms
+Begin:2015-04-05 18:29:46
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:29:46  Total:0.266ms
+Begin:2015-04-05 18:29:47
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:29:47  Total:0.247ms
+Begin:2015-04-05 18:29:48
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(51): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(19): Core\Main->run()
+#7 {main}
+End:2015-04-05 18:29:48  Total:0.298ms
+Begin:2015-04-15 14:51:18
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 14:51:18  Total:52.313ms
+Begin:2015-04-15 14:52:11
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 14:52:11  Total:0.451ms
+Begin:2015-04-15 14:53:02
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 14:53:02  Total:0.348ms
+Begin:2015-04-15 14:53:57
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 14:53:57  Total:8.986ms
+Begin:2015-04-15 14:55:36
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 14:55:36  Total:0.319ms
+Begin:2015-04-15 14:56:06
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 14:56:06  Total:0.369ms
+Begin:2015-04-15 14:58:26
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 14:58:26  Total:0.573ms
+Begin:2015-04-15 14:58:38
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 14:58:38  Total:0.344ms
+Begin:2015-04-15 14:58:57
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 14:58:57  Total:0.306ms
+Begin:2015-04-15 14:59:20
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 14:59:20  Total:0.344ms
+Begin:2015-04-15 15:00:11
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 15:00:11  Total:0.327ms
+Begin:2015-04-15 15:00:26
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 15:00:26  Total:0.868ms
+Begin:2015-04-15 15:02:40
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 15:02:40  Total:0.509ms
+Begin:2015-04-15 15:05:08
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 15:05:08  Total:0.340ms
+Begin:2015-04-15 15:49:55
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 15:49:55  Total:0.403ms
+Begin:2015-04-15 15:50:37
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Admin/Admin.php(14): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Admin\Admin->adminList()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-15 15:50:37  Total:0.304ms
+Begin:2015-04-17 15:26:20
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:26:20  Total:8.693ms
+Begin:2015-04-17 15:26:56
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:26:56  Total:0.280ms
+Begin:2015-04-17 15:32:06
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:32:06  Total:0.500ms
+Begin:2015-04-17 15:32:17
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:32:17  Total:0.264ms
+Begin:2015-04-17 15:32:17
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:32:17  Total:0.273ms
+Begin:2015-04-17 15:32:18
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:32:18  Total:0.250ms
+Begin:2015-04-17 15:33:43
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:33:43  Total:0.379ms
+Begin:2015-04-17 15:33:43
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:33:43  Total:0.240ms
+Begin:2015-04-17 15:33:43
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:33:43  Total:0.294ms
+Begin:2015-04-17 15:33:44
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:33:44  Total:0.299ms
+Begin:2015-04-17 15:33:44
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:33:44  Total:0.245ms
+Begin:2015-04-17 15:34:17
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:34:17  Total:0.314ms
+Begin:2015-04-17 15:34:17
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:34:17  Total:0.247ms
+Begin:2015-04-17 15:34:18
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:34:18  Total:0.254ms
+Begin:2015-04-17 15:34:19
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:34:19  Total:0.244ms
+Begin:2015-04-17 15:34:20
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:34:20  Total:0.245ms
+Begin:2015-04-17 15:34:20
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:34:20  Total:0.269ms
+Begin:2015-04-17 15:34:21
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:34:21  Total:0.272ms
+Begin:2015-04-17 15:34:22
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:34:22  Total:0.330ms
+Begin:2015-04-17 15:34:24
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:34:24  Total:0.275ms
+Begin:2015-04-17 15:34:25
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:34:25  Total:0.285ms
+Begin:2015-04-17 15:38:08
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:38:08  Total:0.287ms
+Begin:2015-04-17 15:38:27
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:38:27  Total:0.247ms
+Begin:2015-04-17 15:38:50
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:38:50  Total:0.282ms
+Begin:2015-04-17 15:39:00
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:39:00  Total:0.324ms
+Begin:2015-04-17 15:39:03
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:39:03  Total:0.309ms
+Begin:2015-04-17 15:39:03
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:39:03  Total:0.260ms
+Begin:2015-04-17 15:39:04
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:39:04  Total:0.248ms
+Begin:2015-04-17 15:39:05
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:39:05  Total:0.296ms
+Begin:2015-04-17 15:39:07
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:39:07  Total:0.310ms
+Begin:2015-04-17 15:39:08
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:39:08  Total:0.265ms
+Begin:2015-04-17 15:39:09
+SQL: SELECT  *  FROM `wm_users`   
+Trace:
+#0 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(519): Core\Lib\DbConnection->logQuery('SELECT  *  FROM...')
+#1 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Lib/DbConnection.php(1096): Core\Lib\DbConnection->query(NULL)
+#2 /Users/wangchengjin/workspace/huawei/yxzw/Model/Users.php(16): Core\Lib\DbConnection->queryAll()
+#3 /Users/wangchengjin/workspace/huawei/yxzw/Mall/Home.php(15): Model\Users->getUserList()
+#4 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54) : eval()'d code(1): Mall\Home->index()
+#5 /Users/wangchengjin/workspace/huawei/yxzw/Framework/Main.php(54): eval()
+#6 /Users/wangchengjin/workspace/huawei/yxzw/index.php(20): Core\Main->run()
+#7 {main}
+End:2015-04-17 15:39:09  Total:0.286ms

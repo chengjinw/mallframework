@@ -1,0 +1,14 @@
+# use glob syntax.
+syntax: glob
+.DS_Store
+.idea
+
+#忽略运行时缓存目录
+nbproject/*
+.buildpath
+.project
+.settings/*
+.hg/*
+.project
+Temp/*
+logs/*
